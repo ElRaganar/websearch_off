@@ -1,3 +1,4 @@
+<img width="1536" height="1024" alt="DisableSearch" src="https://github.com/user-attachments/assets/74c53483-f94d-4102-bb8c-717c4f821104" />
 # 🚀 Disable Windows 11 Web Search | C++ Registry Utility
 
 > **A lightweight, open-source Windows 11 utility to disable web search results in the Windows Search experience using the Windows Registry API.**
