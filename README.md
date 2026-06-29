@@ -77,16 +77,16 @@ No installation required.
 
 ## Method 2 — Build from Source
 
-### Visual Studio
+### Visual Studio [Open X64 Native tool command prompt]
 
 ```bat
-cl /EHsc main.cpp shell32.lib
+cl /EHsc /O2 /MT /std:c++17 main.cpp
 ```
 
 ### MinGW
 
 ```bat
-g++ main.cpp -o DisableSearch.exe -lshell32
+g++ main.cpp -o DisableSearch.exe -static -static-libgcc -static-libstdc++
 ```
 
 ---
